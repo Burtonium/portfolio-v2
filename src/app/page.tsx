@@ -42,6 +42,10 @@ import tokenSaleScreen2 from './assets/token-sale-screen-2.png';
 import tokenDashboardScreen1 from './assets/token-dashboard-screen-1.png';
 import tokenDashboardScreen2 from './assets/token-dashboard-screen-2.png';
 import tokenDashboardScreen3 from './assets/token-dashboard-screen-3.png';
+import predictionMarketScreen1 from './assets/prediction-market-screen-1.png';
+import predictionMarketScreen2 from './assets/prediction-market-screen-2.png';
+import predictionMarketScreen3 from './assets/prediction-market-screen-3.png';
+import predictionMarketScreen4 from './assets/prediction-market-screen-4.png';
 
 import { ExternalLink } from 'lucide-react';
 import { StaticImageData } from 'next/image';
@@ -57,6 +61,16 @@ type Project = {
 };
 
 const projects: Project[] = [
+  {
+    name: 'prediction markets',
+    url: 'https://app.oddex.market/en',
+    images: [
+      predictionMarketScreen1,
+      predictionMarketScreen2,
+      predictionMarketScreen3,
+      predictionMarketScreen4,
+    ],
+  },
   {
     name: 'token dashboards',
     repo: 'https://github.com/Burtonium/token-dashboard',
