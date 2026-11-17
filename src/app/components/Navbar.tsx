@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
+import Link from 'next/link';
 import useClickOutside from '../hooks/useClickOutside';
 
 const navItems = [
@@ -110,6 +111,12 @@ const Navbar = () => {
                   {item.label}
                 </button>
               ))}
+              <Link
+                href="/blog"
+                className="hover:text-primary-400 px-3 py-2 text-sm font-medium text-white transition-colors duration-200"
+              >
+                Blog
+              </Link>
             </div>
           </div>
 
@@ -157,6 +164,12 @@ const Navbar = () => {
                   {item.label}
                 </button>
               ))}
+              <Link
+                href="/blog"
+                className="hover:text-primary-400 block w-full px-3 py-2 text-left text-base font-medium text-white transition-colors duration-200 hover:bg-white/5"
+              >
+                Blog
+              </Link>
             </div>
           </div>
         )}
