@@ -133,35 +133,6 @@ I implemented this year's great NFT heist using web3's new library viem. I chose
 `,
   },
   {
-    slug: 'first-steps-in-solidity',
-    title: 'First steps in Solidity: The Ethereal Forge',
-    date: '2024-01-25',
-    summary:
-      'Three weeks into a Solidity bootcamp: an ERC1155 contract and a forging contract on Sepolia, wired up to a Next.js frontend.',
-    linkedinUrl: linkedinPost('urn:li:share:7156181000232878080'),
-    body: `
-Three weeks ago, I took a leap into the fascinating world of blockchain technology by enrolling in a Web3 Solidity bootcamp offered by Metana. Today, I am thrilled to share some exciting milestones from this journey.
-
-Highlights of My Progress:
-
-- Successfully deployed an ERC1155 contract alongside a unique forging contract. These are now live on the Sepolia network, marking my first official step into the decentralized web. https://testnets.opensea.io/collection/the-ethereal-forge
-- Seamlessly integrated these contracts with a frontend built using Next.js and the powerful eth-scaffold-2 framework, ensuring a user-friendly experience for interacting with the blockchain. https://the-ethereal-forge.vercel.app/
-- Ensured transparency and collaboration by making the entire source code publicly available on GitHub: https://github.com/Burtonium/the-ethereal-forge
-
-This journey is more than just learning; it's about transforming and being part of the revolution in how we interact with the digital world. I am eager to continue this path and contribute to the blockchain ecosystem.
-`,
-  },
-  {
-    slug: 'never-run-foreign-code',
-    title: 'Never run foreign code from a coding assignment',
-    date: '2023-12-22',
-    summary: 'A credentials stealer hidden in the first line of a take-home assignment.',
-    linkedinUrl: linkedinPost('urn:li:share:7143817590128226304'),
-    body: `
-For the love of god please do not run foreign code on your machine for coding assignments. There was this obfuscated credentials stealer hidden after a long comment in the first line of code in a coding assignment I was sent. Be safe out there.
-`,
-  },
-  {
     slug: 'underrated-engineering-values',
     title: 'Underrated things in software engineering',
     date: '2023-10-30',
