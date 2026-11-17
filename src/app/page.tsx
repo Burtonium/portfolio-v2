@@ -201,7 +201,7 @@ export default function Home() {
               <h1 className="text-4xl leading-none md:text-5xl xl:text-6xl">Mathieu Bertin</h1>
               <div>
                 <h2 className="text-primary-400 mb-8 text-4xl leading-none md:text-5xl xl:text-6xl">
-                  Full Stack Developer
+                  Lead Full Stack Engineer
                 </h2>
                 <p className="font-title text-lg leading-6 md:text-xl lg:text-2xl">
                   with 10+ years of development experience and exactly 0 professional design
@@ -397,11 +397,86 @@ export default function Home() {
           <div className="frosted-glass-dark space-y-4 p-5">
             <div>
               <h3 className="mb-2 text-2xl leading-tight md:text-3xl lg:text-4xl">
-                Senior Full Stack Web3 Developer
+                Staff Engineer (Tech Lead)
               </h3>
               <p>
                 <span className="font-bold text-white">APACX · Remote</span>&nbsp;
-                <span className="mb-4 text-gray-300">[June 2025 – Current]</span>
+                <span className="mb-4 text-gray-300">[October 2025 – November 2026]</span>
+              </p>
+            </div>
+
+            <div>
+              <h4 className="mb-0 text-lg md:text-xl">Tech utilized:</h4>
+              <ol className="mt-0 flex flex-wrap">
+                <li className="m-2 flex items-center gap-x-1">
+                  <Image
+                    className="inline"
+                    width={22}
+                    height={22}
+                    src="https://cdn-icons-png.flaticon.com/512/919/919832.png"
+                    alt="TypeScript logo"
+                    unoptimized
+                  />
+                  <span>Typescript</span>
+                </li>
+                <li className="m-2 flex items-center space-x-1">
+                  <NextjsIcon />
+                  <span>Nextjs</span>
+                </li>
+                <li className="m-2 flex items-center space-x-1">
+                  <a href="https://www.postgresql.org/">
+                    <Image
+                      className="inline"
+                      width={22}
+                      height={22}
+                      src="https://www.postgresql.org/media/img/about/press/elephant.png"
+                      alt="PostgreSQL logo"
+                      unoptimized
+                    />
+                  </a>
+                  <span>Postgresql</span>
+                </li>
+                <li className="m-2 flex items-center space-x-1">
+                  <SolidityIcon />
+                  <span>Solidity</span>
+                </li>
+                <li className="m-2 flex items-center space-x-1">
+                  <TailwindcssIcon />
+                </li>
+              </ol>
+            </div>
+            <div>
+              <h4 className="text-2xl">Key Achievements</h4>
+              <ol className="list-disc pt-2 pl-5">
+                <li>
+                  Owned the architecture and stack for a white-label prediction market and
+                  perpetuals platform: four Next.js apps on one shared tRPC + Prisma API layer.
+                </li>
+                <li>
+                  Made trading gasless with ERC-4337 account abstraction, wrote the LMSR
+                  market-making layer over Gnosis Conditional Tokens, and built the perps engine on
+                  a double-entry ledger.
+                </li>
+                <li>
+                  As the team moved to AI-assisted development, pushed for full end-to-end testing
+                  (Playwright against a local chain in CI) and Stryker mutation testing, which kept
+                  AI-written tests honest about coverage.
+                </li>
+                <li>
+                  Pushed for a release gate that times queries on a Neon database branch, catching
+                  performance regressions before deploy.
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div className="frosted-glass-dark space-y-4 p-5">
+            <div>
+              <h3 className="mb-2 text-2xl leading-tight md:text-3xl lg:text-4xl">
+                Senior Full Stack React/Web3 Developer
+              </h3>
+              <p>
+                <span className="font-bold text-white">APACX · Remote</span>&nbsp;
+                <span className="mb-4 text-gray-300">[June 2025 – October 2025]</span>
               </p>
             </div>
 
@@ -485,7 +560,7 @@ export default function Home() {
               </h3>
               <p>
                 <span className="font-bold text-white">Balthazar DAO · Full-time</span>&nbsp;
-                <span className="mb-4 text-gray-300">[May 2024 - Present]</span>
+                <span className="mb-4 text-gray-300">[May 2024 - May 2025]</span>
               </p>
             </div>
 

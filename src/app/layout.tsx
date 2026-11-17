@@ -116,7 +116,7 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'Person',
               name: 'Mathieu Bertin',
-              jobTitle: 'Full Stack Developer',
+              jobTitle: 'Staff Engineer',
               description:
                 'Full Stack Developer with 10+ years of experience specializing in web3 and blockchain applications',
               url: 'https://portfolio.nephelo.io',
